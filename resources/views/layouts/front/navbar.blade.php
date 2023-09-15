@@ -14,7 +14,7 @@
                             src="{{ asset('assets/front-app/media/logo-tk.png') }}"
                             alt="logo"></a>
                 </div>
-                <div class="header-main-nav">
+                <div class="header-main-nav me-0">
                     <!-- Start Mainmanu Nav -->
                     <nav class="mainmenu-nav" id="mobilemenu-popup">
                         <div class="d-block d-lg-none">
@@ -83,7 +83,7 @@
                 </div>
                 <div class="header-action">
                     <ul class="list-unstyled">
-                        <li class="sidemenu-btn d-lg-block d-none">
+                        <li class="sidemenu-btn d-none">
                             <button class="btn-wrap" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasMenuRight">
                                 <span></span>
