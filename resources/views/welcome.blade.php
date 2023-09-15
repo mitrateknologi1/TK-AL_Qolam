@@ -23,7 +23,7 @@
         }
 
         // Menambahkan event click pada tombol untuk menampilkan SweetAlert
-        document.getElementById('show-swal-on-success').addEventListener('click', function() {
+        document.getElementById('show-swal-on-success')?.addEventListener('click', function() {
             Swal.fire({
                 icon: 'success',
                 title: 'Success Message',
